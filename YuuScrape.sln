@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YuuScrape", "YuuScrape\YuuScrape.csproj", "{C46057E1-C1F8-45F8-BF63-3CA149CDA758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuuScrapeLib", "YuuScrapeLib\YuuScrapeLib.csproj", "{13CAAC35-C6A2-4DCF-9CE0-B715A2D9020D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46057E1-C1F8-45F8-BF63-3CA149CDA758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46057E1-C1F8-45F8-BF63-3CA149CDA758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46057E1-C1F8-45F8-BF63-3CA149CDA758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46057E1-C1F8-45F8-BF63-3CA149CDA758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CAAC35-C6A2-4DCF-9CE0-B715A2D9020D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CAAC35-C6A2-4DCF-9CE0-B715A2D9020D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CAAC35-C6A2-4DCF-9CE0-B715A2D9020D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CAAC35-C6A2-4DCF-9CE0-B715A2D9020D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14E384A7-71CF-4517-922C-F2CD0A71B4B6}
+	EndGlobalSection
+EndGlobal
