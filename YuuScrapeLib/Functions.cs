@@ -29,9 +29,6 @@ namespace YuuScrapeLib
         }
         public string getSeriesHtml(string link, ChromeDriver driver)
         {
-            ChromeOptions options = new ChromeOptions();
-            options.AddArgument("--headless");
-
             driver.Navigate().GoToUrl(link);
             WebDriverWait waitDriver = new WebDriverWait(driver, TimeSpan.FromMicroseconds(1));
             waitDriver.Until(driver => ((IJavaScriptExecutor)driver).ExecuteScript("return document.readyState").Equals("complete"));
